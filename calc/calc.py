@@ -56,7 +56,7 @@ class Main(Frame):
 
 if __name__ == '__main__':
     root = Tk()
-    root["bg"] = "#000"
+    root["bg"] = "#434"
     root.geometry("485x550+200+200")
     root.title("Калькулятор")
     root.resizable(False, False)
