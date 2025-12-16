@@ -30,7 +30,7 @@ class Game:
         x_apple, y_apple = self.apple_coords
         self.canvas.create_rectangle(x_apple*10, y_apple*10, (x_apple+1)*10, (y_apple+1)*10, fill="red", width=0)
         for x, y in self.snake_coords:
-            self.canvas.create_rectangle(x*10, y*10, (x+1)*10, (y+1)*10, fill="green", width=0)
+            self.canvas.create_rectangle(x*10, y*10, (x+1)*10, (y+1)*10, fill="pink", width=0)
     #Метод, который возращает координаты на интервале [0, 29]
     @staticmethod
     def coord_check(coord):
