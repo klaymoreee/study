@@ -54,7 +54,7 @@ class Game:
         
 #Каркас игры
 root = Tk()
-canvas = Canvas(root, width=300, height=300, bg="black")
+canvas = Canvas(root, width=300, height=300, bg="gray")
 canvas.pack()
 game = Game(canvas)
 root.mainloop()
